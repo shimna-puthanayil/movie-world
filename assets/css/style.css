@@ -1,0 +1,289 @@
+:root {
+  --title-color-1: rgb(227, 212, 212);
+  --title-color-2: rgba(230, 77, 35, 0.811);
+  --section-title-color: black;
+  --color-dark: #201b1b;
+  --color-dark1: #333;
+  --button-color: #0b4c8ee3;
+}
+
+body {
+  background-color: var(--color-dark);
+}
+
+header {
+  z-index: 9999;
+  position: relative;
+
+}
+
+section {
+  background-color: var(--color-dark);
+}
+
+a {
+  color: var(--title-color-1);
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.dropdown.menu>li.is-dropdown-submenu-parent a:hover {
+  color: var(--title-color-2);
+}
+
+.dropdown.menu>li.is-dropdown-submenu-parent>a::after {
+  border-color: black transparent transparent;
+}
+
+#logo {
+  height: 75px;
+  width: 75px;
+}
+
+.button {
+  background-color: var(--color-dark);
+  color: var(--title-color-1);
+  margin-left: 0;
+  border-radius: 2px solid var(--button-color);
+}
+
+.see-more {
+  text-decoration: underline;
+  color: var(--title-color-2);
+  font-size: 15px;
+  background-color: var(--color-dark);
+  cursor: pointer;
+  margin-left: 15px;
+
+}
+
+.language {
+
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.language-select {
+  height: 25px;
+  width: 100px;
+  background-color: var(--color-dark);
+  color: var(--title-color-2);
+}
+
+.section-text {
+  overflow: hidden;
+}
+
+.section-text h6 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  word-break: break-word;
+}
+
+.section-text .title-text {
+  display: inline;
+}
+
+.section-text .card-rating {
+  margin-top: 5px;
+}
+
+#poster-size {
+  height: 356px;
+}
+
+.top-bar {
+  background-color: var(--color-dark1);
+}
+
+.top-bar .menu {
+  background-color: var(--color-dark1);
+}
+
+.top-bar .top-bar-left {
+  margin-left: 30px;
+}
+
+.top-bar .top-bar-right {
+  margin-right: 50px;
+  margin-left: 25px;
+}
+
+.home-lead {
+  color: var(--title-color-1);
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  display: inline;
+
+}
+
+.lead {
+  color: var(--title-color-1);
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+}
+
+#project-title1 {
+  color: var(--title-color-1);
+  margin-top: 15px;
+}
+
+#project-title2 {
+  color: var(--title-color-2);
+}
+
+.card-section {
+  width: 90%;
+  height: 100px;
+}
+
+.swiper-slide {
+  height: auto;
+}
+
+.slide-container {
+  max-width: 1120px;
+  width: 80%;
+  padding: 20px 0px;
+}
+
+.slide-content {
+  border-radius: 25px;
+  width: 70%;
+}
+
+.card a {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.card-title {
+  font-weight: bolder;
+}
+
+.card-title:hover {
+  cursor: pointer;
+}
+
+.card-size {
+  height: 100%;
+}
+
+.card-search {
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.card {
+  border-radius: 25px;
+  background-color: #fff;
+}
+
+.card-width {
+  width: 240px;
+  margin: auto;
+}
+
+.card img {
+  height: 356px;
+  cursor: pointer;
+}
+
+.swiper-navBtn {
+  color: #6e93f7;
+  transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover {
+  color: #4070f4;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 35px;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+.swiper-pagination-bullet {
+  background-color: #6e93f7;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #4070f4;
+}
+
+.ftr {
+  background-color: var(--color-dark1);
+  min-height: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination-center {
+  justify-content: center;
+  display: flex;
+}
+
+.page-link {
+  margin-right: 5px;
+  background-color: var(--title-color-2);
+}
+
+.pagination a {
+  color: var(--title-color-1);
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+#genre-list li a,
+#top-rated a,
+#most-searched a,
+#recent-releases a {
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+#genre-list li a :hover {
+  background-color: var(--title-color-2);
+}
+
+.menu .vertical a:hover {
+  color: var(--title-color-2);
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content {
+    margin: 0 10px;
+  }
+
+  .swiper-navBtn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 39.9375em) {
+
+  .language {
+
+    display: inline-block;
+    margin-left: 50px;
+  }
+}
