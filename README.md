@@ -19,7 +19,7 @@ N/A
 
 Link to website :
 
-https://sakshiarora04.github.io/just-movie/
+https://shimna-puthanayil.github.io/movie-world/
 
 The following images show the web application's appearance and functionality :
 
