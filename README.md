@@ -2,7 +2,11 @@
 
 ## Description
 
-This application builds a website displaying a range of movies in conjunction with their ratings and reviews, enabling users to search for movies by title or through a series of categories including genre. On the home page, these movies are categorized into top rated, most searched and recent releases. In addition to movie ratings from different movie sites, the displayed movie details include title, genre, runtime, director, release date, user rating, overview and cast. Further, the user is able to read the displayed reviews or, through the accessibility voice feature, they are able to listen to the reviews instead.This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+This application builds a website displaying a range of movies in conjunction with their ratings and reviews, enabling users to search for movies by title or through a series of categories including genre. On the home page, these movies are categorised into top rated, most searched and recent releases. In addition to movie ratings from different movie sites, the displayed movie details include title, genre, runtime, director, release date, user rating, overview and cast. Further, the user is able to read the displayed reviews or, through the accessibility voice feature, they are able to listen to the reviews instead.This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+
+## Installation
+
+N/A
 
 ## Usage
 
@@ -15,7 +19,7 @@ This application builds a website displaying a range of movies in conjunction wi
 
 Link to website :
 
-https://shimna-puthanayil.github.io/movie-world/
+https://sakshiarora04.github.io/just-movie/
 
 The following images show the web application's appearance and functionality :
 
@@ -34,9 +38,10 @@ The following images show the web application's appearance and functionality :
 
 Collaborators
 
-- [Shimna Puthanayil](https://github.com/shimna-puthanayil)
-- [Sakshi Arora](https://github.com/sakshiarora04)
-- [Andy Sue](https://github.com/Andysu7117)
+- Shimna Puthanayil - https://github.com/shimna-puthanayil
+- Sakshi Arora - https://github.com/sakshiarora04
+- Andy Sue - https://github.com/Andysu7117
+- James Angulo - https://github.com/jhayeem08
 
 References
 
@@ -47,6 +52,10 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 https://codepen.io/dipsichawan/pen/poyxxVY
 
 https://stackoverflow.com/questions/18722464/swiper-jquery-slider
+
+## License
+
+MIT license.
 
 ## Features
 

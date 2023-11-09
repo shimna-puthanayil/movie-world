@@ -82,7 +82,7 @@ var displayMovieDetails = function (movies) {
     .append($("<strong>").text("Genre : "))
     .append($("<p>").css("display", "inline").text(genre));
   titleEl.append(
-    $('<p style="color: #fdeb26">')
+    $('<p style="color: #e8b715">')
       .css("display", "inline-block")
       .css("padding-left", "20px")
       .text(userRating + "        ⭐       ")
@@ -131,6 +131,7 @@ var displayMovieDetails = function (movies) {
       .css("display", "block")
       .append($("<strong>").text("Overview : "))
       .append($("<p>").css("display", "inline").text(overview))
+      .css("text-align", "justify")
   );
 
   //Display cast details
@@ -229,7 +230,7 @@ function displayRatingsFromOmdb(ratings) {
         var sourceEl = $('<p style="text-align:center;">').append(
           $("<strong>").text(ratingSource)
         );
-        var ratingEl = $('<p style="text-align:center;color: #fdeb26">').text(
+        var ratingEl = $('<p style="text-align:center;color: #e8b715">').text(
           ratingValue
         );
         cardSectionEl.append(sourceEl);
