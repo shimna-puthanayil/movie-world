@@ -296,7 +296,7 @@ function displayReviews(reviews) {
     sectionReviewEl.append(
       $("<p>")
         .css("display", "block")
-        .append($("<p>").css("display", "inline").text(review))
+        .append($("<p>").css("text-align", "justify").text(review))
     );
 
     //start voice -button
@@ -383,7 +383,7 @@ function displayReviews(reviews) {
         sectionReviewEl.append(
           $("<p>")
             .css("display", "block")
-            .append($("<p>").css("display", "inline").text(review))
+            .append($("<p>").css("text-align", "justify").text(review))
         );
         var buttonPlayEl = $(
           '<button id="play-review" class="button" type="button" style="display:inline-block;"><i id="play-button" class="fa-solid fa-volume-high"></i></button>'

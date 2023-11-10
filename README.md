@@ -19,7 +19,7 @@ N/A
 
 Link to website :
 
-https://shimna-puthanayil.github.io/movie-world/
+https://shimna-puthanayil.github.io/movie-planet/
 
 The following images show the web application's appearance and functionality :
 
@@ -41,9 +41,8 @@ Collaborators
 - Shimna Puthanayil - https://github.com/shimna-puthanayil
 - Sakshi Arora - https://github.com/sakshiarora04
 - Andy Sue - https://github.com/Andysu7117
-- James Angulo - https://github.com/jhayeem08
 
-References
+  References
 
 https://stackoverflow.com/questions/3239598/how-can-i-get-the-id-of-an-element-using-jquery
 
