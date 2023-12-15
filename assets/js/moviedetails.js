@@ -159,10 +159,13 @@ var displayMovieDetails = function (movies) {
       var cardSectionEl = $(
         '<div class="card-section" style="background-color:white padding:0px "></div>'
       );
-      var castName = $("<p>").append(
-        $("<strong>").text(movies.credits.cast[i].name)
-      );
-      var castRole = $("<p>").text(movies.credits.cast[i].character);
+
+      var castName = $(
+        '<p style="font-size:13px;margin-bottom:0px;"></p>'
+      ).append($("<strong>").text(movies.credits.cast[i].name));
+      var castRole = $(
+        '<p style="font-size:12px;margin-bottom:0px;"></p>'
+      ).text(movies.credits.cast[i].character);
       cardEl.append(castImageEl);
       cardSectionEl.append(castName).append(castRole);
       cardEl.append(cardSectionEl);
@@ -321,8 +324,6 @@ function displayReviews(reviews) {
       '<span aria-hidden="true"><i id="play-button" class="fa-solid fa-volume-xmark"></i> </span>'
     );
 
-    // sectionReviewEl.append($('<p>').text(''));
-    // titleEl.append(sectionReviewEl);
     var hrEl = $("<hr>");
     buttonPlayEl.append(spanScreenReaderEl);
     buttonPlayEl.append(spanVisualReaderEl);

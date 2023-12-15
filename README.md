@@ -17,9 +17,9 @@ N/A
 - The user is redirected to movie details page upon clicking a movie title or poster. The details page includes the poster and the movie details such as title, genre, run time, user rating, release date, director, overview and user ratings from different sites (Internet movie database, Rotten tomatoes and Metacritic) in the top section. Then comes the cast section which includes their photos, name and the character they played. The bottom section shows the first review, buttons to start and stop the text voice reader and a link to display more reviews.
 - When the user clicks on the buttons then the speech will be started reading the reviews or stopped according to which button is clicked. When the link is clicked to read all reviews, then a modal opens which shows all the reviews for that movie along with play and stop buttons.
 
-Link to website :
+#### Link to website :
 
-https://shimna-puthanayil.github.io/movie-planet/
+https://sakshiarora04.github.io/just-movie/
 
 The following images show the web application's appearance and functionality :
 
@@ -27,22 +27,33 @@ The following images show the web application's appearance and functionality :
   ![Justmovie](assets/images/justmovie.gif)
 - Homepage
   ![Homepage](assets/images/homepage.gif)
+  ![Homepage1](assets/images/home1.png)
+  ![Homepage2](assets/images/home2.png)
+  ![Homepage3](assets/images/home3.png)
 - Submenu
   ![Submenu](assets/images/submenu.gif)
-- Search
+- Search by Genre
+  ![gengre1](assets/images/genre1.png)
+  ![gengre2](assets/images/genre2.png)
+- Search by Title
   ![search](assets/images/search.gif)
+  ![search1](assets/images/search1.png)
+  ![search2](assets/images/search2.png)
 - Moviedetails
   ![Moviedetails](assets/images/moviedetails.gif)
+  ![details1](assets/images/details1.png)
+  ![details2](assets/images/details2.png)
+  ![details3](assets/images/read-all-reviews.png)
 
 ## Credits
 
-Collaborators
+#### Collaborators
 
-- Shimna Puthanayil - https://github.com/shimna-puthanayil
-- Sakshi Arora - https://github.com/sakshiarora04
-- Andy Sue - https://github.com/Andysu7117
+- <a href="https://github.com/shimna-puthanayil">Shimna Puthanayil</a>
+- <a href="https://github.com/sakshiarora04">Sakshi Arora </a>
+- <a href="https://github.com/Andysu7117">Andy Sue </a>
 
-  References
+#### References
 
 https://stackoverflow.com/questions/3239598/how-can-i-get-the-id-of-an-element-using-jquery
 
@@ -51,10 +62,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 https://codepen.io/dipsichawan/pen/poyxxVY
 
 https://stackoverflow.com/questions/18722464/swiper-jquery-slider
-
-## License
-
-MIT license.
 
 ## Features
 

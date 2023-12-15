@@ -244,7 +244,7 @@ function printResults(result) {
   var rating = parseFloat(result.vote_average);
   if (rating > 0) {
     ratingE1 = $("<h6>" + "Rating: " + rating.toFixed(1) + "</h6>");
-    ratingE1.append(" ⭐");
+    ratingE1.append("⭐");
   } else {
     ratingE1 = $("<h6>No rating available</h6>");
   }
